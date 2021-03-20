@@ -1,0 +1,37 @@
+.container-banner-cookie {
+  display: none;
+  width: 100%;
+  background-color: rgba(79, 79, 79, 0.8);
+  justify-content: space-evenly;
+  align-items: center;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  font-size: 16px;
+  text-align: justify;
+  z-index: 99;
+}
+
+@media (min-width: 1060px){
+  .container-banner-cookie {
+      height: 90px;
+  }
+}
+
+.container-text-banner {
+  width: 50%;
+  justify-content: center;
+  font-weight: 500;
+}
+
+
+.text-button-cookie {
+  color: #fff;
+  font-weight: 700;
+  cursor: pointer;
+}
+
+.text-button-cookie:hover {
+  color: #0670e8;
+  
+}
